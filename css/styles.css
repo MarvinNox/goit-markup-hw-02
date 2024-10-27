@@ -44,7 +44,7 @@ a:hover {
   color: #2e2f42;
   font-weight: 500;
 }
-.nav-link-under:focus:active {
+.nav-link-under:focus {
   text-decoration: underline;
   color: #404bbf;
 }
@@ -63,48 +63,56 @@ a:hover {
   letter-spacing: 0.02em;
   font-size: 16px;
 }
-.contacts:hover:active {
+.contacts:hover {
   font-weight: 400;
   color: #404bbf;
 }
 .button-main {
   color: #ffffff;
-  background-color: #005bbb;
+  background-color: #4d5ae5;
   letter-spacing: 4%;
-  line-height: 24px;
+  line-height: 150%;
   font-weight: 500;
-  border: none;
-  border-radius: 4px;
-  padding: 16px 32px;
-  width: 169px;
-  height: 56px;
   cursor: pointer;
+  letter-spacing: 0.04em;
 }
-h1 {
-  color: #2e2f42;
-  font-weight: bold;
+.button-main:hover {
+  background-color: #404bbf;
+}
+.button-main:focus {
+  background-color: #404bbf;
+}
+.main-title {
+  font-weight: 700;
   font-size: 56px;
-  line-height: 60px;
+  line-height: 107%;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #ffffff;
 }
-h2 {
+.title-second {
   color: #2e2f42;
   font-weight: bold;
   font-size: 36px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+  line-height: 111%;
 }
-h3 {
+.title-third {
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
+  letter-spacing: 0.02em;
+  line-height: 120%;
 }
 ul {
   list-style: none;
 }
-.main-navy {
+.main-sect-first {
   background-color: #2e2f42;
 }
-.main-title {
-  color: #ffffff;
-}
+
 .main-team {
   background-color: #f4f4fd;
 }
@@ -139,4 +147,15 @@ ul {
 .links-nav {
   color: #2e2f42;
   font-weight: 500;
+}
+.team-card {
+  background-color: #ffffff;
+}
+.small-text {
+  font-weight: 400;
+  font-size: 16px;
+  /* line-height: 24px; */
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
