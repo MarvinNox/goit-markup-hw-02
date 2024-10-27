@@ -32,9 +32,6 @@ body {
 .logo-studio:hover {
   color: #2e2f42;
 }
-.logo-footer {
-  color: #f4f4fd;
-}
 a {
   font-family: inherit;
   text-decoration: none;
@@ -45,31 +42,18 @@ a {
 a:hover {
   color: #404bbf;
 }
-.nav-link-under {
-  color: #2e2f42;
-  font-weight: 500;
-}
-.nav-link-under:focus {
-  text-decoration: underline;
-  color: #404bbf;
-}
-/* .nav-link {
-  color: #2e2f42;
-  font-weight: 500;
-}
-*/
-.cont {
+
+.page_contacts {
   font-style: normal;
 }
-.contacts {
+.link-contacts {
   font-weight: 400;
   color: #434455;
   line-height: 150%;
   letter-spacing: 0.02em;
   font-size: 16px;
 }
-.contacts:hover {
-  font-weight: 400;
+.link-contacts:hover {
   color: #404bbf;
 }
 .contacts:focus {
@@ -128,33 +112,14 @@ ul {
   background-color: #2e2f42;
   color: #ffffff;
 }
-.list-body-medium {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 150%;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
-.list-navig {
-  font-weight: 500;
-  font-size: 16px;
-  /* line-height: 24px; */
-  line-height: 150%;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
-.list-adress {
-  font-weight: 400;
-  font-size: 16px;
 
-  /* line-height: 24px; */
-  line-height: 150%;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
-.links-nav {
+.link-nav {
   color: #2e2f42;
   font-weight: 500;
+}
+.link-nav:focus {
+  text-decoration: underline;
+  color: #404bbf;
 }
 .team-card {
   background-color: #ffffff;
