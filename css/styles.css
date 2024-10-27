@@ -20,7 +20,12 @@ body {
 .logo-studio {
   color: #2e2f42;
 }
-
+.logo-studio-white {
+  color: #f4f4fd;
+}
+.logo-studio-white:hover {
+  color: #f4f4fd;
+}
 .logo:hover {
   color: #4d5ae5;
 }
@@ -65,6 +70,9 @@ a:hover {
 }
 .contacts:hover {
   font-weight: 400;
+  color: #404bbf;
+}
+.contacts:focus {
   color: #404bbf;
 }
 .button-main {
@@ -158,4 +166,12 @@ ul {
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #434455;
+}
+.small-text-footer {
+  font-weight: 400;
+  font-size: 16px;
+  /* line-height: 24px; */
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
 }
